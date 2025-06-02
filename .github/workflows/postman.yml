@@ -24,4 +24,4 @@ jobs:
 
     - name: Run Postman Collection
       run: |
-        newman run postman-tests/users-collection.json -d postman-tests/users.json
+        newman run users-collection.json -d users.json
